@@ -10,10 +10,13 @@ class SimpleList
       /* TO DO: The output list, newValues, should hold as
          its elements the square of the corresponding element
          in the input list.
-
          Write a loop to add the square of each element from the
          input list into the output list.  Use a "foreach".
       */
+      for(int a : values){
+         newValues.add((int)(Math.pow(a, 2)));
+      }
+
 
       return newValues;
    }
